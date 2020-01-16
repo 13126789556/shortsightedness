@@ -21,6 +21,8 @@ public class GlassFall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+        //TO DO : CODE ABOUT VISION;
         float x = Random.Range(-fallrange, fallrange);
    
 
