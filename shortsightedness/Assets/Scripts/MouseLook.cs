@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MouseLook : MonoBehaviour
 {
     public float MouseSens = 100f;
     public Transform player;
-
+    public Transform glass;
+    public Transform reminder;
     float xRotation = 0f;
     // Start is called before the first frame update
     void Start()
@@ -24,5 +26,28 @@ public class MouseLook : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         player.Rotate(Vector3.up * mouseX);
+       
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitInfo;
+            if (Physics.Raycast(ray, out hitInfo))
+            {
+                Debug.DrawLine(ray.origin, hitInfo.point, Color.red);
+            if (hitInfo.collider.tag == "Glass")
+            {
+                reminder.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E)) {
+                    glass.gameObject.SetActive(false);
+                    // TODO: CODE ABOUT VISION
+                }
+            }
+            else {
+                reminder.gameObject.SetActive(false);
+            }
+
+            }
+       // reminder.gameObject.SetActive(false);
+       
+
+
     }
 }
