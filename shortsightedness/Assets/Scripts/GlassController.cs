@@ -7,6 +7,10 @@ public class GlassController : MonoBehaviour
     [Range(0,1)]
     public float position;
 
+    public Material glasses;
+    public Transform glass;
+    public float fallrange;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +20,26 @@ public class GlassController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<CanvasRenderer>().GetMaterial(0).SetTextureOffset("_MainTex", new Vector2(0, -position));
-        transform.position = new Vector3(transform.position.x, 540 - position * 1080, transform.position.z);
+        glasses.SetTextureOffset("_AlphaTex", new Vector2(0, position));
+        if (Input.GetKey(KeyCode.P) && position >= 0)
+        {
+            position -= Time.deltaTime * 1f;
+            if(position < 0) { position = 0; }
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Obstacle"))
+        {
+            Debug.Log(1);
+            position += 0.35f;
+            if(position >= 1)
+            {
+                float x = Random.Range(-fallrange, fallrange);
+                glass.position = this.transform.position + new Vector3(x, 0, x);
+                glass.gameObject.SetActive(true);
+            }
+        }
     }
 }

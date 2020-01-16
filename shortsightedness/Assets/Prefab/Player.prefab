@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6997582470243622118}
   - component: {fileID: 6997582470243622119}
   - component: {fileID: 6997582470243622116}
-  - component: {fileID: 2684757602529559387}
+  - component: {fileID: 153301337}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -50,7 +50,7 @@ CharacterController:
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.02
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6997582470243622116
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 6997582470243622119}
   speed: 10
---- !u!114 &2684757602529559387
+--- !u!114 &153301337
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,9 +76,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6997582470243622117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6e86306b34f71645b8d04a6cba26701, type: 3}
+  m_Script: {fileID: 11500000, guid: da23f883942128e42937101a4bce9fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: 0
+  glasses: {fileID: 2100000, guid: 444ebda7d7a2f204a83732726732a3f5, type: 2}
   glass: {fileID: 0}
   fallrange: 2
 --- !u!1 &6997582470507200704

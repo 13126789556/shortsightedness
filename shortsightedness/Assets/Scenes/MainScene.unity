@@ -120,6 +120,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &153301337 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 153301337, guid: aa248e9e998b6084688e0c9e6661c6d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2684757602682728963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da23f883942128e42937101a4bce9fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &304987372
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,16 +302,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4030916997598331953, guid: 439de688ab04359429bf82abcd461c07,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030916997598331955, guid: 439de688ab04359429bf82abcd461c07,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 2100000, guid: 444ebda7d7a2f204a83732726732a3f5, type: 2}
     - target: {fileID: 4030916998034165451, guid: 439de688ab04359429bf82abcd461c07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -410,11 +412,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 4030916998385376153, guid: 439de688ab04359429bf82abcd461c07,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 439de688ab04359429bf82abcd461c07, type: 3}
 --- !u!224 &1830002882 stripped
@@ -430,8 +427,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2684757602529559387, guid: aa248e9e998b6084688e0c9e6661c6d6,
-        type: 3}
+    - target: {fileID: 153301337, guid: aa248e9e998b6084688e0c9e6661c6d6, type: 3}
       propertyPath: glass
       value: 
       objectReference: {fileID: 821968411}
@@ -505,6 +501,11 @@ PrefabInstance:
       propertyPath: reminder
       value: 
       objectReference: {fileID: 1830002882}
+    - target: {fileID: 6997582470507200711, guid: aa248e9e998b6084688e0c9e6661c6d6,
+        type: 3}
+      propertyPath: gc
+      value: 
+      objectReference: {fileID: 153301337}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa248e9e998b6084688e0c9e6661c6d6, type: 3}
 --- !u!1001 &5874178170858765231
@@ -518,6 +519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874178170057246136, guid: b6ec4956b6842f1478931e138b140649,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6501179974900559769, guid: b6ec4956b6842f1478931e138b140649,
         type: 3}

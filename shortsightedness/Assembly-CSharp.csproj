@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GlassController.cs" />
-    <Compile Include="Assets\Scripts\GlassFall.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <None Include="Assets\Shader\Glass.shader" />
