@@ -1,5 +1,5 @@
 sceneSetups:
-- path: D:/Desktop/SIGGRAPH_Asia_2019/Unity/Assets/MotionCapture/Scene.unity
+- path: Assets/Scenes/MainScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
