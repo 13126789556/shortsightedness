@@ -39,7 +39,8 @@ public class MouseLook : MonoBehaviour
                 reminder.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    gc.position = 0;
+                    gc.position = Random.Range(0, 0.5f);
+                    gc.isDroped = false;
                     glass.gameObject.SetActive(false);
                 }
             }

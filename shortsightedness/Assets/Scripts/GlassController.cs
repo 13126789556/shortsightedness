@@ -10,6 +10,7 @@ public class GlassController : MonoBehaviour
     public Material glasses;
     public Transform glass;
     public float fallrange;
+    public bool isDroped = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class GlassController : MonoBehaviour
     void Update()
     {
         glasses.SetTextureOffset("_AlphaTex", new Vector2(0, position));
-        if (Input.GetKey(KeyCode.P) && position >= 0)
+        if (Input.GetKey(KeyCode.P) && position >= 0 && !isDroped)
         {
             position -= Time.deltaTime * 1f;
             if(position < 0) { position = 0; }
@@ -34,10 +35,13 @@ public class GlassController : MonoBehaviour
         {
             Debug.Log(1);
             position += 0.35f;
-            if(position >= 1)
+            if(position >= 1 && !isDroped)
             {
+                isDroped = true;
                 float x = Random.Range(-fallrange, fallrange);
-                glass.position = this.transform.position + new Vector3(x, 0, x);
+                //glass.position = this.transform.position + new Vector3(x, 0, x);
+                glass.position = transform.position;
+                glass.GetComponent<Rigidbody>().velocity = new Vector3(x, 0, x);
                 glass.gameObject.SetActive(true);
             }
         }

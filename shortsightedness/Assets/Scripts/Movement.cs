@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     public CharacterController controller;
     public float speed = 10f;
+    public GlassController gc;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftControl))
         {
-            speed = 7.5f;
+            speed = 5f;
             Camera.main.transform.position -= transform.up * Time.deltaTime * 1.2f;
             if (Camera.main.transform.localPosition.y < -0.5)
             {
@@ -35,6 +36,8 @@ public class Movement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.up * -20 + transform.forward * z;
 
+        if (gc.isDroped) { speed = 4f; }
+        else { speed = 10f; }
         controller.Move(move * speed * Time.deltaTime);
     }
 }
