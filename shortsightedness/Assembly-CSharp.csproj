@@ -66,6 +66,9 @@
     <Compile Include="Assets\Scripts\GlassController.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Trigger.cs" />
     <None Include="Assets\Shader\Glass.shader" />
     <None Include="Assets\Shader\Glasses.shader" />
     <Reference Include="Unity.Timeline.Editor">
