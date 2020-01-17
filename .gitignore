@@ -61,3 +61,5 @@ shortsightedness/Library/shadercompiler-UnityShaderCompiler.exe6.log
 shortsightedness/Library/shadercompiler-UnityShaderCompiler.exe7.log
 shortsightedness/Library/shadercompiler-UnityShaderCompiler.exe8.log
 shortsightedness/Library/shadercompiler-UnityShaderCompiler.exe9.log
+*.csproj
+*.csproj
