@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -39,5 +40,10 @@ public class Movement : MonoBehaviour
         if (gc.isDroped) { speed = 4f; }
         else { speed = 10f; }
         controller.Move(move * speed * Time.deltaTime);
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            SceneManager.LoadScene("MainScene");
+        }
     }
 }
