@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
-    width: 1920
-    height: 997
+    x: 8
+    y: 51
+    width: 1904
+    height: 981
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -43,8 +43,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 997
+    width: 1904
+    height: 981
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -64,7 +64,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1904
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -85,8 +85,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
-    width: 1920
+    y: 961
+    width: 1904
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -109,12 +109,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 915, y: 422}
-  m_MaxSize: {x: 22010, y: 14022}
+    width: 1904
+    height: 931
+  m_MinSize: {x: 917, y: 444}
+  m_MaxSize: {x: 22012, y: 14044}
   vertical: 0
-  controlID: 33
+  controlID: 140
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,12 +134,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 981
-    height: 947
-  m_MinSize: {x: 202, y: 422}
-  m_MaxSize: {x: 4002, y: 8022}
+    width: 917
+    height: 931
+  m_MinSize: {x: 202, y: 444}
+  m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 34
+  controlID: 57
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,8 +157,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 981
-    height: 224
+    width: 917
+    height: 477
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 18}
@@ -184,9 +184,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 224
-    width: 981
-    height: 723
+    y: 477
+    width: 917
+    height: 454
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
@@ -213,14 +213,14 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
-    x: 981
+    x: 917
     y: 0
-    width: 939
-    height: 947
-  m_MinSize: {x: 713, y: 372}
-  m_MaxSize: {x: 18008, y: 14022}
+    width: 987
+    height: 931
+  m_MinSize: {x: 715, y: 394}
+  m_MaxSize: {x: 18010, y: 14044}
   vertical: 1
-  controlID: 148
+  controlID: 141
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,12 +241,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 939
-    height: 761
-  m_MinSize: {x: 713, y: 272}
-  m_MaxSize: {x: 18008, y: 10022}
+    width: 987
+    height: 537
+  m_MinSize: {x: 715, y: 272}
+  m_MaxSize: {x: 18010, y: 10022}
   vertical: 0
-  controlID: 81
+  controlID: 142
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,10 +264,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 276
-    height: 761
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+    width: 224
+    height: 537
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -288,10 +288,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 276
+    x: 224
     y: 0
-    width: 297
-    height: 761
+    width: 382
+    height: 537
   m_MinSize: {x: 234, y: 272}
   m_MaxSize: {x: 10004, y: 10022}
   m_ActualView: {fileID: 23}
@@ -314,10 +314,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 573
+    x: 606
     y: 0
-    width: 366
-    height: 761
+    width: 381
+    height: 537
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
@@ -343,11 +343,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 761
-    width: 939
-    height: 186
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    y: 537
+    width: 987
+    height: 394
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 27}
   m_Panes:
   - {fileID: 27}
@@ -824,7 +824,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -903,7 +903,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -982,7 +982,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1061,7 +1061,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1140,7 +1140,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1219,7 +1219,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1281,7 +1281,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1343,7 +1343,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1405,7 +1405,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1468,7 +1468,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1550,7 +1550,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1632,7 +1632,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1714,7 +1714,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1796,7 +1796,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1878,7 +1878,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1960,7 +1960,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2042,7 +2042,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2124,7 +2124,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2206,7 +2206,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2288,7 +2288,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2370,7 +2370,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2452,7 +2452,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2519,7 +2519,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2586,7 +2586,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2653,7 +2653,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2720,7 +2720,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2787,7 +2787,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2854,7 +2854,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2980,7 +2980,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3091,7 +3091,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3202,7 +3202,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3313,7 +3313,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3424,7 +3424,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3535,7 +3535,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3646,7 +3646,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3757,7 +3757,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3868,7 +3868,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -3979,7 +3979,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4090,7 +4090,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4201,7 +4201,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4312,7 +4312,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4423,7 +4423,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4534,7 +4534,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4645,7 +4645,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4756,7 +4756,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4867,7 +4867,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -4978,7 +4978,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5089,7 +5089,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5200,7 +5200,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5311,7 +5311,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5422,7 +5422,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5533,7 +5533,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5644,7 +5644,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5755,7 +5755,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5866,7 +5866,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -5975,7 +5975,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6069,7 +6069,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6163,7 +6163,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6257,7 +6257,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6351,7 +6351,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6445,7 +6445,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6539,7 +6539,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6633,7 +6633,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6727,7 +6727,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6821,7 +6821,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6915,7 +6915,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7009,7 +7009,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7103,7 +7103,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7197,7 +7197,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7291,7 +7291,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7385,7 +7385,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7479,7 +7479,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7573,7 +7573,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7667,7 +7667,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -7787,7 +7787,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7953,7 +7953,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8119,7 +8119,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8285,7 +8285,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8451,7 +8451,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8617,7 +8617,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8783,7 +8783,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8949,7 +8949,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9115,7 +9115,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9281,7 +9281,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9447,7 +9447,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9613,7 +9613,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9779,7 +9779,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9945,7 +9945,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10111,7 +10111,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10277,7 +10277,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10443,7 +10443,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10609,7 +10609,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10775,7 +10775,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10941,7 +10941,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11107,7 +11107,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11273,7 +11273,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11439,7 +11439,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11605,7 +11605,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11771,7 +11771,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11937,7 +11937,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12103,7 +12103,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12269,7 +12269,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14357,7 +14357,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -14436,7 +14436,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -14515,7 +14515,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -14594,7 +14594,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -14673,7 +14673,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -14752,7 +14752,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -14814,7 +14814,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -14876,7 +14876,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -14938,7 +14938,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -15001,7 +15001,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15083,7 +15083,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15165,7 +15165,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15247,7 +15247,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15329,7 +15329,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15411,7 +15411,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15493,7 +15493,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15575,7 +15575,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15657,7 +15657,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15739,7 +15739,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15821,7 +15821,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15903,7 +15903,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -15985,7 +15985,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16052,7 +16052,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16119,7 +16119,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16186,7 +16186,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16253,7 +16253,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16320,7 +16320,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16387,7 +16387,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -16513,7 +16513,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -16624,7 +16624,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -16735,7 +16735,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -16846,7 +16846,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -16957,7 +16957,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17068,7 +17068,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17179,7 +17179,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17290,7 +17290,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17401,7 +17401,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17512,7 +17512,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17623,7 +17623,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17734,7 +17734,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17845,7 +17845,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -17956,7 +17956,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18067,7 +18067,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18178,7 +18178,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18289,7 +18289,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18400,7 +18400,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18511,7 +18511,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18622,7 +18622,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18733,7 +18733,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18844,7 +18844,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -18955,7 +18955,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -19066,7 +19066,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -19177,7 +19177,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -19288,7 +19288,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -19399,7 +19399,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.1.7
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.postprocessing@2.1.7
         m_AssetPath: Packages/com.unity.postprocessing
         m_Name: com.unity.postprocessing
         m_DisplayName: Post Processing
@@ -19508,7 +19508,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -19602,7 +19602,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -19696,7 +19696,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -19790,7 +19790,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -19884,7 +19884,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -19978,7 +19978,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20072,7 +20072,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20166,7 +20166,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20260,7 +20260,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20354,7 +20354,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20448,7 +20448,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20542,7 +20542,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20636,7 +20636,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20730,7 +20730,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20824,7 +20824,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -20918,7 +20918,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -21012,7 +21012,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -21106,7 +21106,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -21200,7 +21200,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -21320,7 +21320,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21486,7 +21486,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21652,7 +21652,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21818,7 +21818,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -21984,7 +21984,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22150,7 +22150,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22316,7 +22316,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22482,7 +22482,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22648,7 +22648,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22814,7 +22814,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -22980,7 +22980,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -23146,7 +23146,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -23312,7 +23312,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -23478,7 +23478,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -23644,7 +23644,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -23810,7 +23810,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -23976,7 +23976,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -24142,7 +24142,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -24308,7 +24308,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -24474,7 +24474,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -24640,7 +24640,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -24806,7 +24806,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -24972,7 +24972,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -25138,7 +25138,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -25304,7 +25304,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -25470,7 +25470,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -25636,7 +25636,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -25802,7 +25802,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: F:\Serious Game\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: D:\UnityProject\shortsightedness\shortsightedness\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -126961,8 +126961,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 63
-    listPackagesOfflineVersion: 62
+    listPackagesVersion: 57
+    listPackagesOfflineVersion: 56
     searchOperationOngoing: 1
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -127208,26 +127208,26 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 297
-    width: 981
-    height: 704
+    x: 8
+    y: 558
+    width: 917
+    height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 1
-  m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -512
-    m_HBaseRangeMax: 512
-    m_VBaseRangeMin: -384
-    m_VBaseRangeMax: 384
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -127245,25 +127245,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 981
-      height: 687
-    m_Scale: {x: 0.8945313, y: 0.89453125}
-    m_Translation: {x: 490.5, y: 343.5}
+      width: 917
+      height: 418
+    m_Scale: {x: 0.38703704, y: 0.38703704}
+    m_Translation: {x: 458.5, y: 209}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -548.33185
-      y: -384
-      width: 1096.6637
-      height: 768
+      x: -1184.6411
+      y: -540
+      width: 2369.2822
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.89453125
+  m_defaultScale: 0.38703704
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 981, y: 704}
+  m_LastWindowPixelSize: {x: 917, y: 435}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -127289,10 +127289,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 981
-    height: 205
+    x: 8
+    y: 81
+    width: 917
+    height: 458
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 3aa8d55703a2d71418238bfed6e6bab8
@@ -127304,9 +127304,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 512, y: 15, z: 0}
+    m_Target: {x: -4.196241, y: 0.67233086, z: -6.9016438}
     speed: 2
-    m_Value: {x: 512, y: 15, z: 0}
+    m_Value: {x: -4.196241, y: 0.67233086, z: -6.9016438}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -127335,13 +127335,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.013323117, y: -0.98504364, z: 0.14675817, w: -0.08946469}
+    m_Target: {x: -0.4513977, y: 0.15671627, z: -0.08086938, w: -0.8747296}
     speed: 2
-    m_Value: {x: -0.013322915, y: -0.98502874, z: 0.14675595, w: -0.08946333}
+    m_Value: {x: -0.4513951, y: 0.15671538, z: -0.080868915, w: -0.87472457}
   m_Size:
-    m_Target: 268.60056
+    m_Target: 34.28443
     speed: 2
-    m_Value: 268.60056
+    m_Value: 34.28443
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -127485,7 +127485,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -26172
+  m_LastSelectedObjectID: -1740
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127507,28 +127507,28 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 981
-    y: 73
-    width: 274
-    height: 742
+    x: 925
+    y: 81
+    width: 222
+    height: 518
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a2f7ffffbaf7ffffbcf7ffff
+      m_ExpandedIDs: f0afffff70f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
+        m_Name: EventSystem
+        m_OriginalName: EventSystem
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2142
+        m_UserData: 13274
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -127562,10 +127562,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1257
-    y: 73
-    width: 295
-    height: 742
+    x: 1149
+    y: 81
+    width: 380
+    height: 518
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -127579,19 +127579,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\Serious Game\shortsightedness\shortsightedness
+  m_LastProjectPath: D:\UnityProject\shortsightedness\shortsightedness
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 04260000
     m_LastClickedID: 9732
-    m_ExpandedIDs: 000000005c3300007233000094340000ee340000d8350000ee35000022370000683700001e380000363800002c3a00002e3a0000303a0000323a0000343a0000363a0000383a00003a3a0000
+    m_ExpandedIDs: 000000004c2e0000722e00003a2f0000942f00007e30000094300000c83100000e320000c4320000dc3200004a3500004c3500004e3500005035000052350000543500005635000058350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -127619,7 +127620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000005c3300007233000094340000ee340000d8350000ee35000022370000683700001e38000022380000363800002c3a00002e3a0000303a0000323a0000343a0000363a0000383a00003a3a0000
+    m_ExpandedIDs: ffffffff000000004c2e0000722e00003a2f0000942f00007e30000094300000c83100000e320000c4320000dc3200004a3500004c3500004e3500005035000052350000543500005635000058350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -127696,10 +127697,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1554
-    y: 73
-    width: 364
-    height: 742
+    x: 1531
+    y: 81
+    width: 379
+    height: 518
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -127793,8 +127794,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 981
-    y: 834
-    width: 937
-    height: 167
+    x: 925
+    y: 618
+    width: 985
+    height: 375
   m_ViewDataDictionary: {fileID: 0}
