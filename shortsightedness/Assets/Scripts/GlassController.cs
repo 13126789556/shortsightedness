@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GlassController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GlassController : MonoBehaviour
     public Transform glass;
     public float fallrange;
     public bool isDroped = false;
+    public Transform pushUI;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,19 @@ public class GlassController : MonoBehaviour
         {
             position -= Time.deltaTime * 1f;
             if(position < 0) { position = 0; }
+        }
+        if (position >= 0.3 && !isDroped)
+        {
+            pushUI.GetComponent<Text>().text = "Press P to adjust your glasses";
+            pushUI.gameObject.SetActive(true);
+        }
+        else if (isDroped)
+        {
+            pushUI.GetComponent<Text>().text = "Find your glasses!";
+        }
+        else
+        {
+            pushUI.gameObject.SetActive(false);
         }
     }
 

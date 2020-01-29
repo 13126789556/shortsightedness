@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6997582470243622119}
   - component: {fileID: 6997582470243622116}
   - component: {fileID: 153301337}
+  - component: {fileID: 1014053525}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -85,6 +86,19 @@ MonoBehaviour:
   glass: {fileID: 0}
   fallrange: 4
   isDroped: 0
+--- !u!114 &1014053525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6997582470243622117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e6bbc7d4f463a408ae2750655bf6df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
 --- !u!1 &6997582470507200704
 GameObject:
   m_ObjectHideFlags: 0

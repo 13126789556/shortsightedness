@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftControl))
         {
             speed = 5f;
-            Camera.main.transform.position -= transform.up * Time.deltaTime * 1.2f;
+            Camera.main.transform.position -= transform.up * Time.deltaTime * 2f;
             if (Camera.main.transform.localPosition.y < -0.5)
             {
                 Camera.main.transform.localPosition = new Vector3(0, -0.5f, 0);
@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour
         }
         else if(Camera.main.transform.localPosition.y < 1f)
         {
-            Camera.main.transform.position += transform.up * Time.deltaTime * 1.2f;
+            Camera.main.transform.position += transform.up * Time.deltaTime * 2f;
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl)) { speed = 10f; }
 
@@ -37,7 +37,7 @@ public class Movement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.up * -20 + transform.forward * z;
 
-        if (gc.isDroped) { speed = 4f; }
+        if (gc.isDroped) { speed = 2.5f; }
         else { speed = 10f; }
         controller.Move(move * speed * Time.deltaTime);
 
