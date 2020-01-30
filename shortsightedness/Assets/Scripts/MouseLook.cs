@@ -10,6 +10,7 @@ public class MouseLook : MonoBehaviour
     public Transform glass;
     public Transform reminder;
     public GlassController gc;
+    public ValueController vc;
     float xRotation = 0f;
     int layerMask = 1 << 9;
     // Start is called before the first frame update
@@ -31,11 +32,15 @@ public class MouseLook : MonoBehaviour
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hitInfo;
-        if (Physics.Raycast(ray, out hitInfo, 2/*, layerMask*/))
+        if (Physics.Raycast(ray, out hitInfo, 10/*, layerMask*/))
         {
             Debug.DrawLine(ray.origin, hitInfo.point, Color.red);
-            if (hitInfo.collider.tag == "Glass")
+            if (hitInfo.collider.tag == "Computer")
             {
+                vc.Sight += vc.sightspeed * Time.deltaTime;
+                if (vc.Sight >= vc.MaxSight) { vc.Sight = vc.MaxSight; }
+                if (vc.WorkValue >= vc.TargetWork) { vc.WorkValue = vc.TargetWork; }
+                vc.WorkValue += vc.workspeed * Time.deltaTime;
                 reminder.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
