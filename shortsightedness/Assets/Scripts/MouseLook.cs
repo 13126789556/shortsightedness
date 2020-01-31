@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class MouseLook : MonoBehaviour
@@ -11,6 +12,7 @@ public class MouseLook : MonoBehaviour
     public Transform reminder;
     public GlassController gc;
     public ValueController vc;
+    public LightController lc;
     float xRotation = 0f;
     int layerMask = 1 << 9;
     // Start is called before the first frame update
@@ -41,6 +43,7 @@ public class MouseLook : MonoBehaviour
                 if (vc.Sight >= vc.MaxSight) { vc.Sight = vc.MaxSight; }
                 if (vc.WorkValue >= vc.TargetWork) { vc.WorkValue = vc.TargetWork; }
                 vc.WorkValue += vc.workspeed * Time.deltaTime;
+                reminder.GetComponent<Text>().text = "Hold down E to do your work";
                 reminder.gameObject.SetActive(true);
                 if (Input.GetKey(KeyCode.E))
                 {
@@ -48,6 +51,22 @@ public class MouseLook : MonoBehaviour
                     gc.isDroped = false;
                     if (glass != null) { glass.gameObject.SetActive(false); }
                     reminder.gameObject.SetActive(false);
+                }
+            }
+            else if (hitInfo.collider.CompareTag("Switch"))
+            {
+                lc = hitInfo.collider.gameObject.GetComponent<LightController>();
+                if (!lc.open)
+                {
+                    reminder.gameObject.SetActive(true);
+                    reminder.GetComponent<Text>().text = "Press E to turn on the light";
+                    if (Input.GetKeyDown(KeyCode.E)) { lc.open = true; }
+                }
+                else
+                {
+                    reminder.gameObject.SetActive(true);
+                    reminder.GetComponent<Text>().text = "Press E to turn off the light";
+                    if (Input.GetKeyDown(KeyCode.E)) { lc.open = false; }
                 }
             }
         }

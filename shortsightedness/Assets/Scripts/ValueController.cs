@@ -13,6 +13,7 @@ public class ValueController : MonoBehaviour
     public float workspeed;
     public float sightspeed;
     public Transform LookPosition;
+    private bool isEnd;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,11 @@ public class ValueController : MonoBehaviour
     {
         WorkSlider.value = (float)WorkValue / TargetWork;
         SightSlider.value = (float)Sight / MaxSight;
-        if (WorkValue >= TargetWork) { this.transform.position = LookPosition.position; }
+        if (WorkValue >= TargetWork && !isEnd)
+        {
+            isEnd = true;
+            this.transform.position = LookPosition.position;
+            transform.rotation = LookPosition.rotation;
+        }
     }
 }
