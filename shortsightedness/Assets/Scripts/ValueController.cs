@@ -13,6 +13,7 @@ public class ValueController : MonoBehaviour
     public float workspeed;
     public float sightspeed;
     public Transform LookPosition;
+    public Text endWord;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,12 @@ public class ValueController : MonoBehaviour
     {
         WorkSlider.value = (float)WorkValue / TargetWork;
         SightSlider.value = (float)Sight / MaxSight;
-        if (WorkValue >= TargetWork) { this.transform.position = LookPosition.position; }
+        if (WorkValue >= TargetWork) { 
+            this.transform.position = LookPosition.position;
+            endWord.gameObject.SetActive(true);
+
+            endWord.text = "Your sight is " + Sight.ToString();
+
+        }
     }
 }
