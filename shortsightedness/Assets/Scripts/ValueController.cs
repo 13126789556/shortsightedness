@@ -14,6 +14,7 @@ public class ValueController : MonoBehaviour
     public float sightspeed;
     public Transform LookPosition;
     private bool isEnd;
+    public Text endWord;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,10 @@ public class ValueController : MonoBehaviour
             isEnd = true;
             this.transform.position = LookPosition.position;
             transform.rotation = LookPosition.rotation;
+            endWord.gameObject.SetActive(true);
+
+            endWord.text = "Your sight is " + Sight.ToString();
+
         }
     }
 }
