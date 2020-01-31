@@ -42,17 +42,18 @@ public class MouseLook : MonoBehaviour
                 if (vc.WorkValue >= vc.TargetWork) { vc.WorkValue = vc.TargetWork; }
                 vc.WorkValue += vc.workspeed * Time.deltaTime;
                 reminder.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetKey(KeyCode.E))
                 {
                     gc.position = Random.Range(0, 0.5f);
                     gc.isDroped = false;
-                    glass.gameObject.SetActive(false);
+                    if (glass != null) { glass.gameObject.SetActive(false); }
+                    reminder.gameObject.SetActive(false);
                 }
             }
-            else
-            {
-                reminder.gameObject.SetActive(false);
-            }
+        }
+        else
+        {
+            reminder.gameObject.SetActive(false);
         }
         // reminder.gameObject.SetActive(false);
     }
