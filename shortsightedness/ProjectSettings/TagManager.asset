@@ -8,6 +8,7 @@ TagManager:
   - Glass
   - Computer
   - Switch
+  - Window
   layers:
   - Default
   - TransparentFX

@@ -39,10 +39,10 @@ public class MouseLook : MonoBehaviour
             Debug.DrawLine(ray.origin, hitInfo.point, Color.red);
             if (hitInfo.collider.tag == "Computer")
             {
-                vc.Sight += vc.sightspeed * Time.deltaTime;
-                if (vc.Sight >= vc.MaxSight) { vc.Sight = vc.MaxSight; }
-                if (vc.WorkValue >= vc.TargetWork) { vc.WorkValue = vc.TargetWork; }
-                vc.WorkValue += vc.workspeed * Time.deltaTime;
+                //vc.Sight += vc.sightspeed * Time.deltaTime;
+                //if (vc.Sight >= vc.MaxSight) { vc.Sight = vc.MaxSight; }
+                //if (vc.WorkValue >= vc.TargetWork) { vc.WorkValue = vc.TargetWork; }
+                //vc.WorkValue += vc.workspeed * Time.deltaTime;
                 reminder.GetComponent<Text>().text = "Hold down E to do your work";
                 reminder.gameObject.SetActive(true);
                 if (Input.GetKey(KeyCode.E))
@@ -50,29 +50,49 @@ public class MouseLook : MonoBehaviour
                     gc.position = Random.Range(0, 0.5f);
                     gc.isDroped = false;
                     if (glass != null) { glass.gameObject.SetActive(false); }
+                    vc.isWorking = true;
                     reminder.gameObject.SetActive(false);
+                }
+                else
+                {
+                    vc.isWorking = false;
                 }
             }
             else if (hitInfo.collider.CompareTag("Switch"))
             {
+                vc.isWorking = false;
                 lc = hitInfo.collider.gameObject.GetComponent<LightController>();
                 if (!lc.open)
                 {
                     reminder.gameObject.SetActive(true);
                     reminder.GetComponent<Text>().text = "Press E to turn on the light";
-                    if (Input.GetKeyDown(KeyCode.E)) { lc.open = true; }
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        lc.open = true;
+                        vc.isLighting = true;
+                    }
                 }
                 else
                 {
                     reminder.gameObject.SetActive(true);
                     reminder.GetComponent<Text>().text = "Press E to turn off the light";
-                    if (Input.GetKeyDown(KeyCode.E)) { lc.open = false; }
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        lc.open = false;
+                        vc.isLighting = false;
+                    }
                 }
+            }
+            else if (hitInfo.collider.gameObject.CompareTag("Window"))
+            {
+                vc.isLookingWindow = true;
             }
         }
         else
         {
             reminder.gameObject.SetActive(false);
+            vc.isWorking = false;
+            vc.isLookingWindow = false;
         }
         // reminder.gameObject.SetActive(false);
     }
